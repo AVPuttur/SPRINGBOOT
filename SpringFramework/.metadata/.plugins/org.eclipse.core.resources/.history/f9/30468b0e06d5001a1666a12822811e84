@@ -1,0 +1,36 @@
+package com.example.service;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.model.Alien;
+import com.example.repository.AlienRepository;
+
+@Service
+@Transactional
+public class AlienService {
+	    @Autowired
+	    private AlienRepository repo;
+	     
+	    public List<Alien> listAll() {
+	    	System.out.println(repo.findAll());
+	        return repo.findAll();
+	    }
+	     
+	    public void save(Alien alien) {
+	        repo.save(alien);
+	    }
+	     
+	    public Alien get(Integer id) {
+	        return repo.findById(id).get();
+	    }
+	     
+	    public void delete(Integer id) {
+	        repo.deleteById(id);
+	    }
+
+}

@@ -1,0 +1,7 @@
+package com.example.springweb;
+
+public interface HttpHttpServletRequest {
+
+	int getParameter(int string);
+
+}

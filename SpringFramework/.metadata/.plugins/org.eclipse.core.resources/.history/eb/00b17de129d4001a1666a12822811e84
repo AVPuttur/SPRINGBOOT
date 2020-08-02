@@ -1,0 +1,13 @@
+package com.avputtur.kickstartmaven;
+
+public class Alien {
+	
+	public void constructor() {
+		System.out.println("Alien class created..");
+	}
+	
+	public void code() {
+		System.out.print("Alien class....");
+	}
+
+}

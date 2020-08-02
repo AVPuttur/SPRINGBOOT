@@ -1,0 +1,15 @@
+package com.example.springfirst;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Alien {
+	
+	Laptop lap;
+
+	public void code() {
+		
+		System.out.print("I'm coding.....");
+		
+	}
+}

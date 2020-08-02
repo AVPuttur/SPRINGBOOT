@@ -1,0 +1,13 @@
+package com.example.springfirst;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Alien {
+
+	public void code() {
+		
+		System.out.print("I'm coding.....");
+		
+	}
+}

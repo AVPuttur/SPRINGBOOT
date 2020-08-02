@@ -1,0 +1,15 @@
+package com.avputtur.kickstartmaven;
+
+public class Alien {
+	
+	int age;
+	
+	public Alien() {
+		System.out.println("Alien class created..");
+	}
+	
+	public void code() {
+		System.out.print("Alien class....");
+	}
+
+}

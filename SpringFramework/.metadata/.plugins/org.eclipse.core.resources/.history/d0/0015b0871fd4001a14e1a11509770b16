@@ -1,0 +1,10 @@
+package com.example.springfirst;
+
+public class Alien {
+
+	public void code() {
+		
+		System.out.print("I'm coding.....");
+		
+	}
+}
